@@ -12,3 +12,8 @@ Accessing **window.location.query** will return the query parameters as known at
 1. *?key=value* -> **{"key": "value"}**
 2. *?key=value&key2=value2* -> **{"key": "value", "key2": "value2"}**
 3. *(no parameters)* -> **{}**
+
+## Building
+1. Install terser via **npm i terser -g**
+2. Run **npm run build**
+3. Access the minified js or maximized js in *dist/*

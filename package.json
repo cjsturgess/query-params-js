@@ -1,0 +1,23 @@
+{
+  "name": "query-params",
+  "version": "0.0.1",
+  "description": "A small helper used to return query parameters as an object.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "cp src/query-params.js dist/query-params.js && terser src/query-params.js -c -o dist/query-params.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjsturgess/query-params-js.git"
+  },
+  "author": "CJ Sturgess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjsturgess/query-params-js/issues"
+  },
+  "homepage": "https://github.com/cjsturgess/query-params-js#readme",
+  "dependencies": {}
+}
