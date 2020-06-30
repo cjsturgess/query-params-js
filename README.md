@@ -1,6 +1,6 @@
 # query-params.js
 
-**query-params.js** is a small and simple vanilla js helper to capture query parameters as an object.
+**query-params.js** is a small and simple vanilla (ES6) js helper to capture query parameters as an object.
 
 
 ## Usage
