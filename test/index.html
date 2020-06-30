@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>query-params.js</title>
+</head>
+
+<body>
+    <h1>query-params.js</h1>
+    <h3>
+        Query Parameters:
+        <span id="params"></span>
+    </h3>
+    <script src="../query-params.js"></script>
+    <script>
+        let params = window.getQueryParams();
+
+        document.getElementById("params").innerText = JSON.stringify(params);
+    </script>
+</body>
+
+</html>
