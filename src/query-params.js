@@ -17,12 +17,6 @@ let getQueryParams = () => {
             key = p[0],
             val = p[1];
 
-        console.log(key, val);
-
-        console.log({
-            [key]: true
-        });
-
         if (query[key]) {
             if (!Array.isArray(query[key]))
                 query[key] = [query[key]];
