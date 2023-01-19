@@ -1,15 +1,15 @@
 /**
- * query-params.js v0.0.1
+ * query-params.js v0.0.2
  * - Captures query parameters and returns as an object.
  */
 
-let getQueryParams = () => {
-    let search_str = window.location.search.substring(1);
+let getQueryParams = (q_str) => {
+    q_str = q_str || window.location.search.substring(1);
 
-    if (!search_str)
+    if (!q_str)
         return {};
 
-    let params = search_str.split('&');
+    let params = q_str.split('&');
 
     let query = {};
     params.forEach((param) => {
